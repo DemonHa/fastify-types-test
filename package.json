@@ -1,0 +1,17 @@
+{
+  "name": "fastify-types-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.1",
+    "fastify": "github:DemonHa/fastify#type-safe-plugin-definitions",
+    "fastify-static": "github:DemonHa/fastify-static#type-safe-definition-plugin",
+    "typescript": "^5.7.2"
+  }
+}
