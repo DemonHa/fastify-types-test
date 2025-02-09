@@ -1,17 +1,20 @@
 {
   "name": "fastify-types-test",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
+  "description": "A test project for new fastify type system",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node ./build/index.js"
+    "start": "node ./src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^22.13.1",
     "fastify": "github:DemonHa/fastify#type-safe-plugin-definitions",
-    "fastify-static": "github:DemonHa/fastify-static#type-safe-definition-plugin",
-    "typescript": "^5.7.2"
+    "fastify-static": "github:DemonHa/fastify-static#type-safe-definition-plugin"
+  },
+  "engines": {
+    "node": ">=23.7.0"
   }
 }
