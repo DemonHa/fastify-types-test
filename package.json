@@ -5,7 +5,8 @@
   "description": "A test project for new fastify type system",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "tsc --noEmit && node ./src/index.ts"
+    "start": "tsc --noEmit && node ./src/index.ts",
+    "test": "node --test ./test/index.test.ts"
   },
   "author": "",
   "license": "ISC",
