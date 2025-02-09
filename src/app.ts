@@ -1,3 +1,4 @@
+import fastifyAutoload from "@fastify/autoload";
 import fastify from "fastify";
 import fastifyStatic from "fastify-static";
 import path from "path";
@@ -9,8 +10,15 @@ export const getApp = () => {
     logger: true,
   });
 
-  return app.register(fastifyStatic, {
+  app.register(fastifyStatic, {
     root: path.join(__dirname, "/../public"),
     prefix: "/public/",
   });
+
+  app.register(fastifyAutoload, {
+    dir: path.join(__dirname, "modules"),
+    options: { prefix: "/v1" },
+  });
+
+  return app;
 };
