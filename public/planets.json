@@ -1,0 +1,44 @@
+{
+  "planets": [
+    {
+      "name": "Mercury",
+      "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun.",
+      "image": "mercury.jpg"
+    },
+    {
+      "name": "Venus",
+      "description": "Venus is the second planet from the Sun and the hottest planet in the Solar System.",
+      "image": "venus.jpg"
+    },
+    {
+      "name": "Earth",
+      "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+      "image": "earth.jpg"
+    },
+    {
+      "name": "Mars",
+      "description": "Mars is the fourth planet from the Sun and the second smallest planet in the Solar System.",
+      "image": "mars.jpg"
+    },
+    {
+      "name": "Jupiter",
+      "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System.",
+      "image": "jupiter.jpg"
+    },
+    {
+      "name": "Saturn",
+      "description": "Saturn is the sixth planet from the Sun and the second largest in the Solar System.",
+      "image": "saturn.jpg"
+    },
+    {
+      "name": "Uranus",
+      "description": "Uranus is the seventh planet from the Sun and the third largest in the Solar System.",
+      "image": "uranus.jpg"
+    },
+    {
+      "name": "Neptune",
+      "description": "Neptune is the eighth planet from the Sun and the fourth largest in the Solar System.",
+      "image": "neptune.jpg"
+    }
+  ]
+}

@@ -5,9 +5,9 @@ import path from "path";
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
-export const getApp = () => {
+export const getApp = (opts?: { logger?: boolean }) => {
   const app = fastify({
-    logger: true,
+    logger: opts?.logger ?? true,
   });
 
   app.register(fastifyStatic, {

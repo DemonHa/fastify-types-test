@@ -1,8 +1,6 @@
 import { getApp } from "./app.ts";
 
-const app = getApp();
-
-app.listen({ port: 8080 }, (err, address) => {
+getApp().listen({ port: 8080 }, (err, address) => {
   if (err) {
     console.error(err);
     process.exit(1);

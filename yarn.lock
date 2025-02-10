@@ -16,10 +16,9 @@
     ajv-formats "^3.0.1"
     fast-uri "^3.0.0"
 
-"@fastify/autoload@^6.1.0":
+"@fastify/autoload@github:DemonHa/fastify-autoload#type-safe-definition-plugin":
   version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@fastify/autoload/-/autoload-6.1.0.tgz#bdaeedd36243e8c07ff436219a69846e6ea1ce87"
-  integrity sha512-ltFiI5u5KETSqVXq9AIYtiTqrQn4fvuiETR8N78L119JMLJUqHZ6EqZw77syrMf1N9OMCK8z7YktntK9LaD7Pw==
+  resolved "https://codeload.github.com/DemonHa/fastify-autoload/tar.gz/ebfdf8a0638e157f59695f967684a747f14c43fd"
 
 "@fastify/error@^4.0.0":
   version "4.0.0"
@@ -248,7 +247,7 @@ fast-uri@^3.0.0, fast-uri@^3.0.1:
 
 "fastify-plugin@github:DemonHa/fastify-plugin#type-safe-definition-plugin":
   version "5.0.1"
-  resolved "https://codeload.github.com/DemonHa/fastify-plugin/tar.gz/d86b1a687a52ebd5b5bdeba80b179a54432509e4"
+  resolved "https://codeload.github.com/DemonHa/fastify-plugin/tar.gz/0f6c5723aa3724861f9a0f2e14fc8d118cc51565"
 
 "fastify-static@github:DemonHa/fastify-static#type-safe-definition-plugin":
   version "8.0.3"
@@ -263,7 +262,7 @@ fast-uri@^3.0.0, fast-uri@^3.0.1:
 
 "fastify@github:DemonHa/fastify#type-safe-plugin-definitions":
   version "5.2.0"
-  resolved "https://codeload.github.com/DemonHa/fastify/tar.gz/5ff330733daf1cc7a773f33d446ce1906988a86f"
+  resolved "https://codeload.github.com/DemonHa/fastify/tar.gz/9a438e8301bc0b0ef8f74fbc9a39bc67bc459175"
   dependencies:
     "@fastify/ajv-compiler" "^4.0.0"
     "@fastify/error" "^4.0.0"
@@ -570,7 +569,6 @@ statuses@2.0.1:
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
-  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -589,7 +587,6 @@ string-width@^5.0.1, string-width@^5.1.2:
     strip-ansi "^7.0.1"
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
